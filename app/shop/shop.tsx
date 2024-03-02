@@ -1,4 +1,4 @@
-export default function Home() {
+export default function shop() {
     return (
         <div>
             this is the shop page
