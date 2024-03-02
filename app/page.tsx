@@ -157,7 +157,7 @@ export default function Home() {
 
           </div>
         </div>
-{/* shop menu */}
+      {/* shop menu */}
         <div className=" flex flex-col justify-center space-y-4">
           {/* main text area */}
           <div className="flex flex-row justify-between w-full">
@@ -209,13 +209,13 @@ export default function Home() {
                 priority
               />
               <div className="self-center">
-                <h1 className="text-[34px] ">VEGETARIAN SAMOSA</h1>
+                <h1 className="text-[34px] ">VEGETARIAN SPRING ROLL</h1>
                 <p>80p per piece</p>
               </div>
             </div>
             <div className="flex flex-row justify-end space-x-10">
             <div className="self-center">
-                <h1 className="text-[34px] ">PANEER SAMOSA</h1>
+                <h1 className="text-[34px] ">PANEER SPRING ROLL</h1>
                 <p>£1 per piece</p>
               </div>
               <Image
@@ -229,6 +229,7 @@ export default function Home() {
              
             </div>
           </div>
+          
 
         </div>
 
