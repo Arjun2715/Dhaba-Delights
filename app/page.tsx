@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
@@ -26,8 +26,7 @@ export default function Home() {
             />
           </a>
         </div>
-      </div>
-
+      </div> 
       <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -37,8 +36,7 @@ export default function Home() {
           height={37}
           priority
         />
-      </div>
-
+      </div> 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -107,7 +105,124 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+      </div> */}
+      <div className="w-[1000px]">
+        {/* Headder */}
+        <div className=" top-0 z-10 w-[1000px]">
+          <div className="flex flex-row justify-between h-20 w-full">
+            <div className="self-end">
+              <h1 className="font-dancing-script font-normal text-3xl ">Dhaba Delights</h1>
+            </div>
+            <div className="self-end">
+              <nav>
+                <ul className="flex flex-row space-x-4">
+                  <li className="hover:underline cursor-pointer">Home</li>
+                  <li className="hover:underline cursor-pointer">Shop</li>
+                  <li className="hover:underline cursor-pointer">About us</li>
+                  <li className="hover:underline cursor-pointer">Contact</li>
+                  <li className="hover:underline cursor-pointer">En</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        {/* main hero */}
+        <div className="h-[90vh] flex flex-col justify-center">
+          {/* main text area */}
+          <div className="flex flex-row justify-between">
+            <div className=" flex flex-col">
+              <h1 className="text-[64px]">Delicious<br></br>and Autentic Indian Food</h1>
+              <div className="my-10">
+                <a className="w-auto inline-block bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white border-[3px] color-orange-500" href="">Order Now</a>
+              </div>
+            </div>
+            {/* main image */}
+            <div className="flex flex-col justify-center">
+              <div className="relative">
+                <div className="">
+                  <Image
+                    className="object-cover w-auto"
+                    src="/images/main.png"
+                    alt="main IMG"
+                    width={550}
+                    height={50}
+                    priority
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+
+          </div>
+        </div>
+
+        <div className="h-[100vh] flex flex-col justify-center">
+          {/* main text area */}
+          <div className="flex flex-row justify-between bg-white w-full h-[50vh] ">
+         
+            {/*  image */}
+            <div className="flex flex-col justify-center"> 
+            <Image
+                    className="object-cover h-[50vh] w-[520px] z-10"
+                    src="/images/second.jpg"
+                    alt="main IMG"
+                    width={500}
+                    height={500}
+                    priority
+                  />
+            </div> 
+            {/* main image */}
+            <div className="text-slate-900 flex flex-col m-20 w-[500px]">
+              <h1 className="text-4xl ">Our Story</h1>
+              <p className="mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /> Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+              </p>
+              <div>
+              <a className="w-auto mt-10 inline-block bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-slate-900 border-[3px]" href="">About Us</a>
+              </div>
+            </div> 
+          </div> 
+        </div>
+
+        <div className="h-[100vh] flex flex-col justify-center">
+          {/* main text area */}
+          <div className="flex flex-row justify-between bg-white w-full h-[50vh] ">
+            {/*  image */}
+            <div className="flex flex-col justify-center">
+            <Image
+                    className="object-cover h-[50vh] w-[520px] z-10"
+                    src="/images/second.jpg"
+                    alt="main IMG"
+                    width={500}
+                    height={500}
+                    priority
+                  />
+            </div> 
+            {/* main image */}
+            <div className="text-slate-900 flex flex-col m-20 w-[500px]">
+              <h1 className="text-4xl ">Our Story</h1>
+              <p className="mt-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /> Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+              </p>
+              <div>
+              <a className="w-auto mt-10 inline-block bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-slate-900 border-[3px]" href="">About Us</a>
+              </div>
+            </div> 
+          </div> 
+        </div>
+
+        
       </div>
+
+
     </main>
   );
 }
