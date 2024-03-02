@@ -117,11 +117,10 @@ export default function Home() {
             <div className="self-end">
               <nav>
                 <ul className="flex flex-row space-x-4">
-                  <li className="hover:underline cursor-pointer">Home</li>
-                  <li className="hover:underline cursor-pointer">Shop</li>
-                  <li className="hover:underline cursor-pointer">About us</li>
-                  <li className="hover:underline cursor-pointer">Contact</li>
-                  <li className="hover:underline cursor-pointer">En</li>
+                  <li className="cursor-pointer">Home</li>
+                  <li className="cursor-pointer">Shop</li>
+                  <li className="cursor-pointer">About us</li>
+                  <li className="cursor-pointer">Contact</li> 
                 </ul>
               </nav>
             </div>
