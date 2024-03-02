@@ -141,7 +141,7 @@ export default function Home() {
               <div className="relative">
                 <div className="">
                   <Image
-                    className="object-cover w-auto"
+                    className="object-cover w-auto "
                     src="/images/main.png"
                     alt="main IMG"
                     width={550}
@@ -152,12 +152,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div>
-
-          </div>
         </div>
-      {/* shop menu */}
+
+        {/* shop menu */}
         <div className=" flex flex-col justify-center space-y-4">
           {/* main text area */}
           <div className="flex flex-row justify-between w-full">
@@ -182,7 +179,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-row justify-end space-x-10">
-            <div className="self-center">
+              <div className="self-center">
                 <h1 className="text-[34px] ">PANEER SAMOSA</h1>
                 <p>£1 per piece</p>
               </div>
@@ -194,7 +191,7 @@ export default function Home() {
                 height={50}
                 priority
               />
-             
+
             </div>
           </div>
           {/* row 3,4 */}
@@ -214,7 +211,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-row justify-end space-x-10">
-            <div className="self-center">
+              <div className="self-center">
                 <h1 className="text-[34px] ">PANEER SPRING ROLL</h1>
                 <p>£1 per piece</p>
               </div>
@@ -226,10 +223,10 @@ export default function Home() {
                 height={50}
                 priority
               />
-             
+
             </div>
           </div>
-          
+
 
         </div>
 
@@ -263,6 +260,30 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="h-[100vh] flex flex-col justify-center">
+          {/* main text area */}
+          <div className="flex flex-row justify-center w-full h-[50vh] bg-cover"
+
+            style={{
+              backgroundImage: `url(${'/images/spices2.jpg'})`,
+            }}>
+            {/*  image */}
+            <div className="text-white  z-20 absolute self-center ">
+              <h1 className="text-4xl text-center">Contact Us</h1>
+              <p className="mt-5 text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br /> et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation <br /> ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <div className="flex justify-center">
+                <a className="self-center w-auto mt-10 inline-block bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal border-[3px]
+                              dark:border-white" href="">About Us</a>
+              </div>
+            </div>
+            <div className="w-full h-full bg-slate-950  opacity-60 relative z-10"></div>
+
+          </div>
+
+        </div>
 
       </div>
 
