@@ -1,29 +1,12 @@
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between text-slate-900">
+  return  <main className="flex min-h-screen flex-col items-center justify-between text-slate-900">
     
       <div className="w-[1200px]">
 
         {/* Headder */}
-        <div className=" top-0 z-10 w-[1200px]">
-          <div className="flex flex-row justify-between h-20 w-full">
-            <div className="self-end">
-              <h1 className="font-dancing-script font-normal text-3xl ">Dhaba Delights</h1>
-            </div>
-            <div className="self-end">
-              <nav>
-                <ul className="flex flex-row space-x-4">
-                  <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">Shop</li>
-                  <li className="cursor-pointer">About us</li>
-                  <li className="cursor-pointer">Contact</li> 
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
+        
 
         <div className="scroll-container overflow-y-auto snap-y-mandatory">
   
@@ -185,6 +168,5 @@ export default function Home() {
           </div> 
         </div>  
       </div> 
-    </main>
-  );
+    </main> 
 }
