@@ -33,7 +33,7 @@ export default function contact() {
                     <div className="px-6 py-4 self-center">
                         <div className="font-bold text-xl mb-2">Email</div>
                         <p className="text-gray-700 text-base">
-                        <Link href="#">example@gamil.com</Link>                   
+                        <Link href="mailto:as1211300@gmail.com">as1211300@gmail.com</Link>                   
                         </p>
                     </div> 
                 </div>

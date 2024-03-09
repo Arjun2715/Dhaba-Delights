@@ -113,7 +113,7 @@ export default function Home() {
           </div>
 
           {/* aboutus */} 
-          <div className="h-[100vh] flex flex-col justify-center scroll-snap-center">
+          <div className="mt-40 flex flex-col justify-center scroll-snap-center">
             {/* main text area */}
             <div className="flex flex-row justify-between bg-white w-full h-[50vh] ">
               {/*  image */}
@@ -144,7 +144,7 @@ export default function Home() {
           </div>
 
           {/* contact */} 
-          <div className="h-[100vh] flex flex-col justify-center scroll-snap-center">
+          <div className="my-32 flex flex-col justify-center scroll-snap-center">
             {/* main text area */}
             <div className="flex flex-row justify-center w-full h-[50vh] bg-cover"
 

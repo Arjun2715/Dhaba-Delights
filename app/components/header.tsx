@@ -15,9 +15,9 @@ export default function header() {
                         <li className="cursor-pointer">
                             <Link href="/shop">Shop</Link>
                         </li>
-                        <li className="cursor-pointer">
+                        {/* <li className="cursor-pointer">
                             <Link href="/about">About us</Link>
-                        </li>
+                        </li> */}
                         <li className="cursor-pointer">
                             <Link href="/contact">Contact</Link>
                         </li>
