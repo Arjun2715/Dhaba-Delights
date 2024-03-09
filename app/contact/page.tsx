@@ -40,9 +40,9 @@ export default function contact() {
                 {/* Tiktok */}
                 <div className="flex justify-start w-[250px] h-[200px] rounded-xl overflow-hidden shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
-                        <div className="font-bold text-xl mb-2">Email</div>
+                        <div className="font-bold text-xl mb-2">Tiktok</div>
                         <p className="text-gray-700 text-base">
-                        <Link href="#">example@gamil.com</Link>                   
+                        <Link href="#">@dhaba-delightes</Link>                   
                         </p>
                     </div> 
                 </div>
