@@ -1,0 +1,73 @@
+{/* featured */}
+          <div className=" flex flex-col justify-center space-y-4 scroll-snap-center">
+            {/* main text area */}
+            <div className="flex flex-row justify-between w-full">
+              <h1 className="flex flex-1 text-[72px] " >Featured </h1>
+              <p className="flex-1">
+              </p>
+            </div>
+            {/* row 1,2 */}
+            <div className="space-y-4">
+              <div className="flex flex-row justify-start space-x-10">
+                <Image
+                  className="object-contain w-[300px]"
+                  src="/images/main.png"
+                  alt="main IMG"
+                  width={550}
+                  height={50}
+                  priority
+                />
+                <div className="self-center">
+                  <h1 className="text-[34px] ">VEGETARIAN SAMOSA</h1>
+                  <p>80p per piece</p>
+                </div>
+              </div>
+              <div className="flex flex-row justify-end space-x-10">
+                <div className="self-center">
+                  <h1 className="text-[34px] ">Smosa Chaart</h1>
+                  <p>£3.50 per box</p>
+                </div>
+                <Image
+                  className="object-contain w-[300px]"
+                  src="/images/samosa-chaart.png.png"
+                  alt="main IMG"
+                  width={550}
+                  height={50}
+                  priority
+                />
+
+              </div>
+            </div>
+            {/* row 3,4 */}
+            <div className="space-y-4">
+              <div className="flex flex-row justify-start space-x-10">
+                <Image
+                  className="object-contain w-[300px]"
+                  src="/images/main.png"
+                  alt="main IMG"
+                  width={550}
+                  height={50}
+                  priority
+                />
+                <div className="self-center">
+                  <h1 className="text-[34px] ">VEGETARIAN SPRING ROLL</h1>
+                  <p>80p per piece</p>
+                </div>
+              </div>
+              <div className="flex flex-row justify-end space-x-10">
+                <div className="self-center">
+                  <h1 className="text-[34px] ">PANEER SPRING ROLL</h1>
+                  <p>£1 per piece</p>
+                </div>
+                <Image
+                  className="object-contain w-[300px]"
+                  src="/images/paneer_samosas.png"
+                  alt="main IMG"
+                  width={550}
+                  height={50}
+                  priority
+                />
+
+              </div>
+            </div>
+          </div>

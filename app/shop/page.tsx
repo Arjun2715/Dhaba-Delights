@@ -31,10 +31,10 @@ export default async function Shop() {
                             priority
                         />
                         <div className="px-6 py-4">
-                            <div className="select-none font-bold text-2xl mb-2">{product.name}</div>
-                            <div className="select-none font-medium text-xl mb-2">{product.price}</div>  
-                            <div className="select-none font-medium text-lg mb-2">{product.unfry_Price}</div>
-                            <div className="select-none font-normal text-md"><strong>Ingredients:</strong>  {product.ingredients}</div>
+                            <div className="font-bold text-2xl mb-2">{product.name}</div>
+                            <div className="font-medium text-xl mb-2">{product.price}</div>  
+                            <div className="font-medium text-lg mb-2">{product.unfry_Price}</div>
+                            <div className="font-normal text-md"><strong>Ingredients:</strong>  {product.ingredients}</div>
                         </div>
                     </div>
                 ))}
