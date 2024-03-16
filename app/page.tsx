@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return <main className="flex min-h-screen flex-col items-center justify-between text-slate-900">
 
-    <div className="w-[1200px]">
+    <div className="">
 
       {/* Headder */}
 
@@ -18,7 +18,7 @@ export default function Home() {
             <div className=" flex flex-col">
               <h1 className="text-[84px]">Delicious<br></br>and Autentic Indian Food</h1>
               <div className="my-10">
-                <Link href="/shop" className="w-auto inline-block  px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal border-[3px] color-orange-500" href="">Order Now</Link>
+                <Link href="/shop" className="w-auto inline-block  px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal border-[3px] color-orange-500">Order Now</Link>
               </div>
             </div>
             {/* main image */}
@@ -52,9 +52,9 @@ export default function Home() {
               priority
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-2xl mb-2">Smosa Chaart</div>
-              <div className="font-medium text-xl mb-2">£3.50 per box</div>
-            <div className="font-medium text-lg mb-2"></div>
+              <div className="font-bold text-2xl">Smosa Chaart</div>
+              <div className="font-medium text-xl">£3.50 per box</div>
+            <div className="font-medium text-lg"></div>
             <div className="font-normal text-md">
               <strong>Ingredients:</strong>Yoghourt, Tamarind sauce, Vegi Smosa X 2 , Onion</div>
           </div>
@@ -70,11 +70,11 @@ export default function Home() {
               priority
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-2xl mb-2">Channa Batura</div>
-              <div className="font-medium text-xl mb-2">£3.50 per box</div>
-            <div className="font-medium text-lg mb-2"></div>
+              <div className="font-bold text-2xl">Channa Batura</div>
+              <div className="font-medium text-xl">£3.50 per box</div>
+            <div className="font-medium text-lg"></div>
             <div className="font-normal text-md">
-              <strong>Ingredients:</strong>Chickpeas, 2 X Batura</div>
+              <strong>Ingredients:</strong>Chickpeas, Curry, Onion, Garlic, Ginger, Salt, peppers, 2 x Batura</div>
           </div>
         </div>
 
@@ -88,9 +88,9 @@ export default function Home() {
               priority
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-2xl mb-2">Paneer Spring Roll</div>
-              <div className="font-medium text-xl mb-2">£1 per piece</div>
-            <div className="font-medium text-lg mb-2">Unfry: 90p per piece</div>
+              <div className="font-bold text-2xl">Paneer Spring Roll</div>
+              <div className="font-medium text-xl">£1 per piece</div>
+            <div className="font-medium text-lg">Unfry: 90p per piece</div>
             <div className="font-normal text-md">
               <strong>Ingredients:</strong>Paneer, Onion, Sweetcorn, Peas, Salt, Black peppers, Criander</div>
           </div>
@@ -106,9 +106,9 @@ export default function Home() {
               priority
             />
             <div className="px-6 py-4">
-              <div className="font-bold text-2xl mb-2">Mix Pakora</div>
-              <div className="font-medium text-xl mb-2">£12.50 per Kilo</div>
-            <div className="font-medium text-lg mb-2"></div>
+              <div className="font-bold text-2xl">Mix Pakora</div>
+              <div className="font-medium text-xl">£12.50 per Kilo</div>
+            <div className="font-medium text-lg"></div>
             <div className="font-normal text-md">
               <strong>Ingredients:</strong>Onion, Cabbage, Spinach, Potatoes, Salt, Red chill, Black pepper, Chat masala, Gram flour</div>
           </div>

@@ -9,17 +9,17 @@ export default function header() {
             <div className="self-end">
                 <nav>
                     <ul className="flex flex-row space-x-4">
-                        <li className="cursor-pointer">
-                            <Link href="/">Home</Link>
+                        <li className="cursor-pointer hover:underline">
+                            <Link className="font-medium text-xl" href="/">Home</Link>
                         </li>
-                        <li className="cursor-pointer">
-                            <Link href="/shop">Shop</Link>
+                        <li className="cursor-pointer hover:underlin">
+                            <Link className="font-medium text-xl" href="/shop">Shop</Link>
                         </li>
                         {/* <li className="cursor-pointer">
                             <Link href="/about">About us</Link>
                         </li> */}
-                        <li className="cursor-pointer">
-                            <Link href="/contact">Contact</Link>
+                        <li className="cursor-pointer hover:underlin">
+                            <Link className="font-medium text-xl" href="/contact">Contact</Link>
                         </li>
                     </ul>
                 </nav>

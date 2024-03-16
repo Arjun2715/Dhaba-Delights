@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex flex-row justify-center ">
-        <div className="w-[1200px]">
+        <div className="w-[1400px]">
           <Header />
           {children}
           <hr />
