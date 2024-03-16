@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex flex-row justify-center ">
-        <div className="w-[1400px]">
+      <body className="md:flex md:flex-row m:justify-center ">
+        <div className="md:w-[1400px]">
           <Header />
           {children}
           <hr />
