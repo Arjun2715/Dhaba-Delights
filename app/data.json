@@ -1,0 +1,101 @@
+{
+    "products" : [
+        {
+            "id": 1,
+            "name": "Samosa fry",
+            "price": "£1 per piece ",
+            "unfry_Price": "Unfry: £0.80 per piece",
+            "imageUrl":  "",
+            "ingredients": "Potato , Peas, Coriander, Salt, Red chill, Mustard powder, Black pepper"
+        }, 
+        {
+            "id": 2,
+            "name": "Paneer Samosa",
+            "price": " £1.25 per piece",
+            "unfry_Price": "Unfry: £1 per piece",
+            "imageUrl":  "",
+            "ingredients": "Potato, Peas, Coriander, Salt, Red chill, Mustard powder, Black pepper"
+        }, 
+        {
+            "id": 3,
+            "name": "Vegetarian Spring Rroll",
+            "price": " £1.25 per piece",
+            "unfry_Price": "Unfry: £1 per piece",
+            "imageUrl":  "",
+            "ingredients": "White cabbage, Sweetcorn,Peppers, Peas, Carrot, Salt, Black pepper, Red chilli, Coriander"
+        }, 
+        
+        {
+            "id": 4,
+            "name": "Paneer Spring Roll",
+            "price": "£1 per piece",
+            "unfry_Price": "Unfry: 90p per piece",
+            "imageUrl":  "",
+            "ingredients": "Paneer, Onion, Sweetcorn, Peas, Salt, Black peppers, Criander"
+        }, 
+        
+        {
+            "id": 5,
+            "name": "Smosa Chaart",
+            "price": "£3.50 per box",
+            "unfry_Price": "",
+            "imageUrl":  "",
+            "ingredients": "Yoghourt, Tamarind sauce, Vegi Smosa X 2 , Onion"
+        }, 
+        
+        {
+            "id": 6,
+            "name": "Papri Chaart",
+            "price": "£3.50 per box",
+            "unfry_Price": "",
+            "imageUrl":  "",
+            "ingredients": "Potato ,Peas, Coriander, Salt, Red chill, Mustard powder, Black pepper"
+        }, 
+        
+        {
+            "id": 7,
+            "name": "Aloo Tikki Chaart",
+            "price": "£3.50 per box",
+            "unfry_Price": "",
+            "imageUrl":  "",
+            "ingredients": "Aloo tiki X 2, White Chickpeas,Curry, Yougurt, Tamrind sauce, Onion"
+        }, 
+        
+        {
+            "id": 8,
+            "name": "Channa Batura",
+            "price": "£3.50 per box",
+            "unfry_Price": "",
+            "imageUrl":  "",
+            "ingredients": "Chickpeas, 2 X Batura"
+        }, 
+        
+        {
+            "id": 9,
+            "name": "Mix Pakora",
+            "price": "£12.50 per Kilo",
+            "unfry_Price": "",
+            "imageUrl":  "",
+            "ingredients": "Onion, Cabbage, Spinach, Potatoes, Salt, Red chill, Black pepper, Chat masala, Gram flour"
+        }, 
+        
+        {
+            "id": 10,
+            "name": "Bread Pakora",
+            "price": " £1 per piece",
+            "unfry_Price": "Unfry: £1",
+            "imageUrl":  "",
+            "ingredients": "Bread, potatoes, Gram flour"
+        },
+        {
+            "id": 11,
+            "name": "Aloo Puri",
+            "price": "£3.50 per box",
+            "unfry_Price": "",
+            "imageUrl":  "",
+            "ingredients": "Cuury aloo, 2 X Puri wheat, Onion"
+        }
+        
+        
+    ]
+}

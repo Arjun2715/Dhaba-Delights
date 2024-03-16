@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function header() {
     return <div className=" top-0 z-50 ">
-        <div className="flex flex-row justify-between h-20 w-full">
+        <div className="flex flex-row justify-between h-20 w-full ">
             <div className="self-end">
                 <h1 className="font-dancing-script font-normal text-3xl ">Dhaba Delights</h1>
             </div>
