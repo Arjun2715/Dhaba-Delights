@@ -4,7 +4,7 @@ export default function header() {
     return <div className=" top-0 z-50 ">
         <div className="flex flex-row justify-between h-20 w-full px-6  sm:px-4 md:px-2 ">
             <div className="self-end">
-                <h1 className=" font-medium sm:font-bold md:text-3xl ">Dhaba Delights</h1>
+                <Link href="/" className=" font-medium sm:font-bold md:text-3xl ">Dhaba Delights</Link>
             </div>
             <div className="self-end">
                 <nav>
