@@ -32,9 +32,9 @@ export default function Home() {
 
     {/* featured */}
     <div className=" m-2 sm:m-10  xs:my-4 sm:my-6 md:my-8 ">
-      <h1 className="text-4xl md:text-6xl lg:text-7xl md:self-start self-center " >Featured </h1>
+      <h1 className="text-4xl md:text-6xl lg:text-7xl md:self-start self-center m-3" >Featured </h1>
       <div className="  grid xs:grid-col-1  sm:grid-cols-2  md:grid-cols-4">
-        <div className=" rounded-xl overflow-hidden hover:shadow-xl shadow-md m-2">
+        <div className="rounded-xl overflow-hidden  shadow-[rgba(8,8,8,0.08)_0px_0px_6px_6px] m-3">
           <Image
             className="object-cover h-[250px] w-full select-none "
             src="/images/samosa-chaart.png"
@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" rounded-xl overflow-hidden hover:shadow-xl shadow-md m-2">
+        <div className="rounded-xl overflow-hidden  shadow-[rgba(8,8,8,0.08)_0px_0px_6px_6px] m-3">
           <Image
             className="object-cover h-[250px] w-full select-none "
             src="/images/chana-bathura.png"
@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" rounded-xl overflow-hidden hover:shadow-xl shadow-md m-2">
+        <div className="rounded-xl overflow-hidden  shadow-[rgba(8,8,8,0.08)_0px_0px_6px_6px] m-3">
           <Image
             className="object-cover h-[250px] w-full select-none "
             src="/images/paneer-rolls.png"
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" rounded-xl overflow-hidden hover:shadow-xl shadow-md m-2">
+        <div className="rounded-xl overflow-hidden  shadow-[rgba(8,8,8,0.08)_0px_0px_6px_6px] m-3">
           <Image
             className="object-cover h-[250px] w-full select-none "
             src="/images/Pakora.png"

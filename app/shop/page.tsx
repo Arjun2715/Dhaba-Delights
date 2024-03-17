@@ -21,7 +21,7 @@ export default async function Shop() {
                     unfry_Price: string,
                     ingredients: string
                 }) => (
-                    <div key={product.id} className=" rounded-xl overflow-hidden hover:shadow-xl shadow-md m-2">
+                    <div key={product.id} className=" rounded-xl overflow-hidden  shadow-[rgba(8,8,8,0.08)_0px_0px_6px_6px] m-4">
                         <Image
                             className="object-cover h-[300px] w-full select-none "
                             src={product.imageUrl}
