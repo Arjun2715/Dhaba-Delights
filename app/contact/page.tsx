@@ -9,7 +9,7 @@ export default function contact() {
             </h1>
         </div>
         <div className="flex flex-col md:w-full justify-center mb-14">
-            <div className="flex md:flex-nowrap flex-wrap md:flex-row xs:flex-col justify-evenly xs:m-4">
+            <div className="flex md:flex-nowrap sm:flex-wrap  md:flex-row xs:flex-col justify-evenly m-8 ">
                 {/* phone */}
                 <div className="flex justify-center w-full h-[200px] m-4 rounded-xl  shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
@@ -24,7 +24,7 @@ export default function contact() {
                     </div>
                 </div>
                 {/* Insta */}
-                <div className="flex justify-center w-full h-[200px]  md:m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                <div className="flex justify-center w-full h-[200px]  m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
                         <div className="font-bold text-2xl mb-2 flex justify-center">Instagram</div>
                         <p className="text-gray-700 text-xl flex justify-center">
@@ -33,7 +33,7 @@ export default function contact() {
                     </div>
                 </div>
                 {/* Email */}
-                <div className="flex justify-center w-full h-[200px]  md:m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                <div className="flex justify-center w-full h-[200px]  m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
                         <div className="font-bold text-2xl mb-2 flex justify-center">Email</div>
                         <p className="text-gray-700 text-xl flex justify-center">
@@ -42,7 +42,7 @@ export default function contact() {
                     </div>
                 </div>
                 {/* Tiktok */}
-                <div className="flex justify-center w-full h-[200px]  md:m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                <div className="flex justify-center w-full h-[200px]  m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
                         <div className="font-bold text-2xl mb-2 flex justify-center">Tiktok</div>
                         <p className="text-gray-700 text-xl flex justify-center">
