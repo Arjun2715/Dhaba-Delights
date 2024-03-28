@@ -110,7 +110,7 @@ export default function Home() {
 
     {/* aboutus */}
     {/* main text area */}
-    <div className="flex md:flex-row flex-col xs:justify-center bg-white m-6 ">
+    <div className="flex md:flex-row flex-col xs:justify-center bg-white m-6  my-14">
       {/*  image */}
       <div className="flex flex-col justify-start md:w-1/2">
         <Image
