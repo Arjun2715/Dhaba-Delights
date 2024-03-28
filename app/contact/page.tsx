@@ -2,54 +2,58 @@ import Map from "@/app/components/locationMap"
 import Link from 'next/link';
 
 export default function contact() {
-    return <main className="flex flex-col items-start  text-slate-900">
+    return <main className="flex flex-col  text-slate-900 overflow-x-hidden">
         <div className="my-8">
-            <h1 className="text-[44px] font-medium ">
-                Contact Us 
+            <h1 className="text-4xl font-medium ">
+                Contact Us
             </h1>
-        </div> 
-        <div className="flex flex-row w-full justify-between space-x-8 mb-14">
-            <div className="flex flex-wrap flex-row justify-between ">
+        </div>
+        <div className="flex flex-col md:w-full justify-center mb-14">
+            <div className="flex md:flex-nowrap flex-wrap md:flex-row xs:flex-col justify-evenly xs:m-4">
                 {/* phone */}
-                <div className="flex justify-start w-[250px] h-[200px] rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                <div className="flex justify-center w-full h-[200px] m-4 rounded-xl  shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
-                        <div className="font-bold text-xl mb-2">Phone number</div>
-                        <p className="text-gray-700 text-base">
-                        <Link href="tel:1234567789">1234567889</Link>      
+                        <div className="font-bold text-2xl mb-2 flex justify-center">Phone number</div>
+                        <p className="text-gray-700 text-xl flex justify-center">
+                            <div className="flex flex-col">
+                                <Link href="tel:00447466891903" className="self-center">English: +44 7466891903</Link>
+                                <Link href="tel:00447460411957" className="self-center">Punjabi: +44 7460411957</Link>
+
+                            </div>
                         </p>
-                    </div> 
+                    </div>
                 </div>
                 {/* Insta */}
-                <div className="flex justify-start w-[250px] h-[200px] rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                <div className="flex justify-center w-full h-[200px]  md:m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
-                        <div className="font-bold text-xl mb-2">Instagram</div>
-                        <p className="text-gray-700 text-base">
-                            <Link href="#">@instagram</Link>                 
+                        <div className="font-bold text-2xl mb-2 flex justify-center">Instagram</div>
+                        <p className="text-gray-700 text-xl flex justify-center">
+                            <Link href="#">@instagram</Link>
                         </p>
-                    </div> 
+                    </div>
                 </div>
                 {/* Email */}
-                <div className="flex justify-start w-[250px] h-[200px] rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                <div className="flex justify-center w-full h-[200px]  md:m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
-                        <div className="font-bold text-xl mb-2">Email</div>
-                        <p className="text-gray-700 text-base">
-                        <Link href="mailto:as1211300@gmail.com">as1211300@gmail.com</Link>                   
+                        <div className="font-bold text-2xl mb-2 flex justify-center">Email</div>
+                        <p className="text-gray-700 text-xl flex justify-center">
+                            <Link href="mailto:as1211300@gmail.com">as1211300@gmail.com</Link>
                         </p>
-                    </div> 
+                    </div>
                 </div>
                 {/* Tiktok */}
-                <div className="flex justify-start w-[250px] h-[200px] rounded-xl overflow-hidden shadow-md hover:shadow-xl">
+                <div className="flex justify-center w-full h-[200px]  md:m-4 rounded-xl overflow-hidden shadow-md hover:shadow-xl">
                     <div className="px-6 py-4 self-center">
-                        <div className="font-bold text-xl mb-2">Tiktok</div>
-                        <p className="text-gray-700 text-base">
-                        <Link href="#">@dhaba-delightes</Link>                   
+                        <div className="font-bold text-2xl mb-2 flex justify-center">Tiktok</div>
+                        <p className="text-gray-700 text-xl flex justify-center">
+                            <Link href="#">@dhaba-delightes</Link>
                         </p>
-                    </div> 
+                    </div>
                 </div>
             </div>
-            <div className="flex">
-                <Map/>
-            </div>
+
+            <Map />
+
         </div>
     </main>
 }
