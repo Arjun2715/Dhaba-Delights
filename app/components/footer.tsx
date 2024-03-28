@@ -39,7 +39,7 @@ export default function footer() {
                     </svg>
                 </a> 
             </div>
-            <p className="mt-8 text-base leading-6 text-center text-gray-400">
+            <p className="mt-8 text-base leading-6 text-center text-gray-400 pb-8">
                 © 2024 Dhaba Delights. All rights reserved.
             </p>
         </div>
