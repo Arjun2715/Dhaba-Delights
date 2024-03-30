@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/vue"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
