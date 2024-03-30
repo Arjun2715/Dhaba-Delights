@@ -123,9 +123,9 @@ export default function Home() {
       <div className="text-slate-900 md:flex md:flex-col my-2 md:w-1/2 md:mb-12">
         <h1 className="text-4xl ">Our Story</h1>
         <p className="mt-5">
-          Passed down through generations, our family's recipes are a treasure trove of flavors that have stood the test of time. With each dish, we strive to recreate the magic of those roadside eateries, where the aroma of spices filled the air and the sizzle of tandoors echoed through the streets.
+          {/* Passed down through generations, our family's recipes are a treasure trove of flavors that have stood the test of time. With each dish, we strive to recreate the magic of those roadside eateries, where the aroma of spices filled the air and the sizzle of tandoors echoed through the streets.
 
-          <br /><br /> At Dhaba Delights, we believe in preserving the authenticity of Indian cuisine while embracing modern techniques and flavors. Every ingredient is carefully sourced, ensuring the highest quality and freshness. From the vibrant spices of North India to the coastal delights of the South, our menu is a celebration of India's diverse culinary landscape.
+          <br /><br /> At Dhaba Delights, we believe in preserving the authenticity of Indian cuisine while embracing modern techniques and flavors. Every ingredient is carefully sourced, ensuring the highest quality and freshness. From the vibrant spices of North India to the coastal delights of the South, our menu is a celebration of India's diverse culinary landscape. */}
           {/* <br /><br /> But it's not just about the food; it's about the experience. As you step into Dhaba Delights, you'll be greeted with warmth and hospitality, just like a guest in our own home. Our friendly staff is dedicated to providing you with a memorable dining experience, whether you're grabbing a quick meal on the go or lingering over a leisurely dinner with family and friends. */}
 
 
@@ -147,7 +147,7 @@ export default function Home() {
       <div className="text-white  z-20 absolute self-center sm:p-14 w-2/3">
         <h1 className="md:font-bold font-medium md:text-4xl sm:text-2xl text-lg text-center">Contact Us</h1>
         <p className="md:mt-5 md:text-xl sm:text-lg text-sm text-center ">
-          <br /> At Dhaba Delights, we're not just serving food; we're sharing a piece of our heritage with each and every customer. It's a journey of flavors, aromas, and memories that we invite you to be a part of.
+          {/* <br /> At Dhaba Delights, we're not just serving food; we're sharing a piece of our heritage with each and every customer. It's a journey of flavors, aromas, and memories that we invite you to be a part of. */}
         </p>
         <div className="flex justify-center mt-10">
         <Link href="/contact">
